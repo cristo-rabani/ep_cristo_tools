@@ -1,0 +1,16 @@
+{
+    "parts": [
+        {
+            "name": "ep_cristo_tools",
+            "hooks": {
+                "eejsBlock_styles": "ep_cristo_tools/static/js/hooks:eejsBlock_styles",
+                "eejsBlock_scripts": "ep_cristo_tools/static/js/hooks:eejsBlock_scripts",
+                "eejsBlock_timesliderScripts": "ep_cristo_tools/static/js/hooks.js:eejsBlock_scripts",
+                "eejsBlock_timesliderStyles": "ep_cristo_tools/static/js/hooks:eejsBlock_styles"
+            },
+            "client_hooks": {
+                "aceEditorCSS": "ep_cristo_tools/static/js/hooks:aceEditorCSS"
+            }
+        }
+    ]
+}
