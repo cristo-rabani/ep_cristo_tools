@@ -9,7 +9,8 @@
                 "eejsBlock_timesliderStyles": "ep_cristo_tools/static/js/hooks:eejsBlock_styles"
             },
             "client_hooks": {
-                "aceEditorCSS": "ep_cristo_tools/static/js/hooks:aceEditorCSS"
+                "aceEditorCSS": "ep_cristo_tools/static/js/hooks:aceEditorCSS",
+                "aceInitialized": "ep_cristo_tools/static/js/hooks:aceInitialized"
             }
         }
     ]

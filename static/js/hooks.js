@@ -16,3 +16,9 @@ exports.eejsBlock_scripts = function (hook_name, args, cb) {
   return cb();
 };
 
+exports.aceInitialized = function(hook, context){
+    Cristo.documentAttributeManager = context.documentAttributeManager;
+    Cristo.rep = context.rep;
+    Cristo.editorInfo = context.editorInfo;
+};
+
