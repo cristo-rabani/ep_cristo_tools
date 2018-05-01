@@ -4,8 +4,8 @@ exports.aceEditorCSS = function(){
 };
 
 exports.eejsBlock_styles = function (hook_name, args, cb) {
-  args.content = args.content + "\n<link href='/static/plugins/ep_cristo_tools/static/font-awesome/css/font-awesome.min.css' rel='stylesheet'>";
-  args.content = args.content + "\n<link href='/static/plugins/ep_cristo_tools/static/css/cristo.css' rel='stylesheet'>";
+  args.content = args.content + "\n<link href='../static/plugins/ep_cristo_tools/static/font-awesome/css/font-awesome.min.css' rel='stylesheet'>";
+  args.content = args.content + "\n<link href='../static/plugins/ep_cristo_tools/static/css/cristo.css' rel='stylesheet'>";
 
   return cb();
 };
